@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cubes School</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Milomir Dragović">
+        <meta name="description" content="QA kurs je koncipiran da pokrije...">
+
+    </head>
+    <body>
+        <h1>Vežba 3 - Rad sa slikama</h1>
+        <p>
+            Kada želimo da ubacimo sliku u sadržaj na našoj web stranici koristimo
+            tag &lang;img&rang;. Veoma je važno napomenuti da je ovaj tag samozatvarajući!!!.
+        </p>
+        <p>
+            Da bi ovaj tag imao smisla neophodno mu je dodati atribut SRC.
+            SRC atribut predstavlja SOURCE, tj. putanju gde se naša slika nalazi.
+            Ova putanja može biti relativna i apsolutna. U najvećem delu vašeg budućeg rada
+            po pitanju slika koristićete samo relativnu putanju.
+        <p>
+            Relativna putanja se odnosi na poziciju slike u odnosu na "VAŠU" poziciju (POZICIJU HTML STRANICE).
+            Apsolutna putanja je putanja gde se stvarno nalazi neki element bez obzira na vašu poziciju.</p>
+
+        <p>
+            Kod unosa relativne putanje "/" predstavlja ULAZAK u neki folder dok "../" predstavlja izlazak
+            iz nekog foldera
+        </p>
+        <p> Ispod ovog paragrafa ću učitati sliku 1 iz foldera "slike" (src="slike/slika-01.jpg")</p>
+        <img src="slike/slika-01.jpg" alt="priroda" >
+        <p>
+            Pored SRC atributa drugi veoma važan atribut je ALT atribut - alternative koji
+            predstavlja zamenu ukoliko se slika iz nekog razloga nije učitala. Ovaj atribut treba da
+            bude tekstualan i SMISLEN tj. da odgovara samoj slici.
+          </p>  
+            <img src="slike\slika-02.jpg" alt="priroda2" title="slika za rad">
+            <img src="slike\slika-05.jpg" alt="more" title="jos slika"
+            
+               <p>
+            TITLE atribut služi da da dodatno objašnjenje za sliku. Ukoliko
+            mišom pređemo preko slike posle nekoliko trenutaka prikazaće se tekst iz TITLE atributa.
+            
+        </p>
+
+        <img src="slike/slika-04.jpg" alt="slika">
+        
+        <img src="http://www.school.cubes.rs//uploads/course-categories/5-software-qa-kurs-tester-cubes-skola-kursevi-programiranja-600-400.jpg">
+
+        <!-- UČITAJ OVDE SLIKA-02 IZ FOLDERA "slike" -->
+
+        <!-- UČITAJ OVDE SLIKA-01 IZ FOLDERA "slike" -->
+
+        <!-- UČITAJ OVDE SLIKA-03 IZ FOLDERA "slike" prevlačenjem. Moguće je iz Netbeans-a da sa leve strane nađete sliku i prevučete je u dokument. Vidite šta će da se desi. -->
+
+
+        <!-- UČITAJ OVDE SLIKU SA APSOLUTNOM PUTANJOM http://www.school.cubes.rs//uploads/course-categories/5-software-qa-kurs-tester-cubes-skola-kursevi-programiranja-600-400.jpg -->
+
+    </body>
+</html>

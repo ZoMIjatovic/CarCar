@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+
+}
+
+#sitting-order{
+    width:100%;
+    border-collapse: collapse;
+}
+
+#sitting-order td{
+    padding: 50px 30px;
+    text-align: center;
+    border: 2px solid #aaa;
+}
+/*nisam videla nigde klasu dard, ali sam je obelezila*/
+#sitting-order .dard{
+    background-color: #aaa;
+}
+
+#sitting-order tr:nth-child(odd) td:nth-child(even), 
+#sitting-order :nth-child(even) td:nth-child(odd) {
+    background-color: #f2d0d2;
+}
+#sitting-order tr:last-child td:nth-child(1n){
+    border-bottom: 4px solid black;
+}
+
+#sitting-order tbody tr td:nth-child(3), #sitting-order tbody tr td:nth-child(6){
+    visibility: hidden;
+}
+
+#sitting-order td[colspan='2']{
+    border: 1px solid black;
+    background-color:#f2d0d2;
+    visibility: visible;
+}
+#sitting-order tfoot tr td{
+    visibility:hidden;
+}
+
+#students-list{
+    width: 500px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+#students-list thead{
+    border-bottom: 4px double #888;
+    border-top: 4px double #888;
+}
+
+#students-list tbody tr{
+    border-bottom: 1px solid #888
+}
+
+#students-list tr:last-child{
+    border-bottom: 4px double #888;
+}
+
+/*Promenila sam boju jer se sa #eee nije videla promena*/ 
+#students-list tbody tr:hover{
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+.news {
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(#fff, #cccccc);
+}
+.news .title a{
+    font-weight: bold;
+    font-size: 24px;
+    color: #159;
+}
+
+.news .description{
+    color: #333;
+}
+
+.news .time{
+    margin: 0px;
+    color:#aaa;
+    text-align: right;
+}
+
+.advertising {
+    width: 400px;
+    margin: 20px;
+}
+
+.advertising a{
+    font-size: 12px;
+    color: #395;
+}
+
+.advertising .description{
+    color: #555;
+    font-size: 11px;
+}

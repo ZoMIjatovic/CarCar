@@ -1,0 +1,116 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: Helevetica, sens-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+#sitting-order  {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#sitting-order td {
+    padding: 50px 30px;
+    border-color: #aaa;
+    text-align: center;
+    border: solid 2px;
+}
+/*promenila sam boju*/
+#sitting-order .dard {
+    background-color: #f2d0d2
+}
+
+#sitting-order tr:nth-child(odd) td:nth-child(even), 
+#sitting-order :nth-child(even) td:nth-child(odd) {
+    background-color: #f2d0d2;}
+
+#sitting-order tr:last-child td:nth-child(1n){
+    border-bottom: 4px solid black;
+}
+
+#sitting-order tbody tr td:nth-child(3), #sitting-order tbody tr td:nth-child(6){
+    visibility: hidden;
+}
+
+#sitting-order td[colspan='2']{
+    border: 1px solid black;
+    background-color:#f2d0d2;
+    visibility: visible;
+}
+#sitting-order tfoot tr td{
+    visibility:hidden;
+}
+
+#students-list {
+    width: 500px;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: left;
+}
+
+
+#students-list thead {
+    border-bottom: 4px;
+    border-top: 4px;
+    border-color: #888;
+    border-style: double;
+
+}
+
+#students-list  tbody tr {
+
+    border-color: #888;
+    border-bottom: 1px solid;
+
+
+}
+#students-list tr:last-child{
+    border-bottom: 4px double #888;
+}
+
+#students-list tbody tr:hover {
+    background-color: #eee;
+
+}
+.pointer {cursor: pointer;}
+
+
+.news {
+    width: 600px;
+    padding-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(#fff,#eee);
+}
+.news a {
+    color: #159;
+    font-size: 24px;
+    font-weight: bold;
+}
+.news .description {
+    color: #333;
+}
+news .time{
+    margin: 0px;
+    color:#aaa;
+    text-align: right;
+}
+
+.advertising {
+    width: 400px;
+    padding: 20px;
+}
+.advertising a {
+    font-size: 12px;
+    color: #395;
+}
+.advertising .description {
+    font-size: 11px;
+    color: #555;
+}

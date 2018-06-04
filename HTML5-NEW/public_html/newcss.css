@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2018, 9:23:14 PM
+    Author     : LUX
+*/
+
+
+
+
+body{
+    margin-bottom: 150px;
+    margin-left: 200px;
+   width: 1200px;
+}
+
+#header {
+    background-color: red;
+}
+#nav {
+    background-color: bisque;
+}
+#main {
+    background-color: salmon;
+}
+#article {
+    background-color: buttonface;
+}
+#aside {
+    background-color: azure;
+}
+#footer{
+    background-color: chartreuse
+}
+
+table{
+    border: black
+    font-size:55px;
+} 
+
+table, tr, td {
+    border: 5px, solid black;
+
+}
+
+table, thead, tr th{
+    background-color: red;
+    
+}
+table tbody:hover {
+    background-color: aqua
+}
+table, tbody{
+    background-color: gray
+}
+table tbody tr:nth-child(even) {
+    background-color: pink
+        
+   body {
+    font-family: Helvetica;
+}
+h1{
+    color: aqua;
+}  
+
+h2 {
+    color: brown;
+    text-decoration: underline;
+
+}
+
+h1,h2,h3,h4.h5,h6 {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 28px
+}
+.inportant {
+    margin:20px;
+    border:1px sold#333;
+    background-color:#eee;
+    width:400px;
+    padding:15px
+}
+.yelow-background{
+    background-color:
+        green;
+}
+.green-background{
+    backround-color:
+        yelow
+}
+#main-hadding{
+    color:red
+}
+.subhadding{
+    color:yellow;
+}
+.sidebar{
+    color:blue;
+}
+ul{
+    font-size: 12px;
+}
+ul.sidebar {
+    padding-left: 0px;
+        width:300px;
+        margin-left:50px;
+}
+ul.sidebar li {
+
+    list-style:none; 
+    background-color: activeborder;
+}
+ul.sidebar li lu{
+    padding-left: 0px
+}
+ul.sidebar li lu li {
+    background-color: rosybrown
+}
+a{color: red}
+
+/*selector:pseudo-class {
+    property:value;
+}*/
+
+a:hover {
+
+    color:white;
+    background-color:blue
+}
+
+a:visited{
+    color: grey;
+}
+h2:hover {
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    font-size:25px;
+} 
+
+table, tr, td {
+    border: 3px, solid black;
+
+}
+table, thead, tr th{
+    background-color: #css;
+}
+table tbody tr:hover {
+    background-color: aqua
+}
+table tbody tr:nth-child(even) {
+    background-color: aquamarine
+}
+table tbody tr:nth-child(odd) {
+    background-color: greenyellow
+}
+table tbody tr:last-child{
+    background-color: red     

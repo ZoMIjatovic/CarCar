@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cubes School</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Milomir Dragović">
+        <meta name="description" content="QA kurs je koncipiran da pokrije...">
+
+    </head>
+    <body>
+        <h1 id="#mainTitle">Vežba 2 - RAD sa linkovima</h1>
+        <p>
+           Kada kažemo LINKOVI  podrazumeva se ANCHOR TAG (&lang;a&rang;).
+           Služi da kreira link na našoj web stranici.
+           LINK TAG (&lang;link&rang;) služi za učitavanje spoljnih resursa na našu stranicu
+           (npr JavaScript-a, CSS fajla....). Da bi kreirali link neophodno je da sadržaj koji želimo
+           da definišemo kao link i učinimo ga klikabilnim okružimo sa ANCHOR TAGOM
+           Sledeće što treba da dodate je HREF atribut koji ce reći pretraživaču
+           gde treba da ode kada se klikne na link.
+        </p>
+
+
+        <h2>HYPERLINK</h2>
+        <p>
+            <span>
+                <!-- Reč CUBES okružite anchor tagom i podesiti da kad se klikne odete na sajt kompanije cubes http://www.cubes.rs -->
+                Vi trenutno pohadjate QA kurs u okviru kompanije <a href="http://www.cubes.rs" target="_blank"> CUBES.</a>
+            </span>
+        </p>
+
+
+        <h2>SLIKA KAO LINK</h2>
+        <!-- Reč logo okruzite anchor tagom i podesiti da kad se klikne otvori sliku logo.png -->
+        <!-- postoji folder 'slike' u kojima su fajlovi, href atribut treba da ima vrednost "slike/logo.png" -->
+        <p>Naša kompanija ima sledeći logo.</p>
+        
+    
+  
+        <p>Klikom na sliku logo-a posetite naš Web site <!--Ovde ubaciti sliku logo.png i podesiti da kad se klikne na nju odete na sajt companije Cubes--></p>
+
+         <a href="http://www.cubes.rs" target"_blank"><img src="slike/logo.png"></a>
+        
+         
+         <h2>MAILTO LINK</h2>
+        <p>
+            <!-- mail adresu okružite a tagom i podesiti da kada se klikne na nju otvori mail-box-->
+            Za sva nejasna pitanja i probleme koje naiđete u radu možete me kontaktirati
+            na mail milomir.dragovic@cubes.rs
+            
+        </p>
+        <p>
+
+<a href="mailto:milomir.dragovic@cubes.rs?Subject=Hello%20again" target="_top">milomir.dragovic@cubes.rs</a>
+</p>
+
+        <h2>DOWNLOAD LINK</h2>
+        <p>
+            <!--Okružite poslednju reč NETBEANSA sa a tagom i podesite da kada se klikne na
+            njega sačuva pdf sa upustvom, treba da se otvori novi tab!!! -->
+            Download link se koristi kada želimo da klikom na neki deo na stranici
+            download-ujemo neki externi sadržaj. U ovom primeru možete preuzeti upustvo za podešavanja NETBEANSA.
+        </p>
+<a href="downloads/INSTALACIJA-NET-BEANSA.pdf" target="_blank">Download</a>
+
+        <h2>LINKOVANJE NA ODREĐENI DEO NA ISTOJ STRANICI</h2>
+        <p>
+            Da bi ovo pokazao neophodno je da dodamo malo sadržaja (LOREM IPSUM je tekst bez značaja
+            koji se dodaje da bi se samo popunila stranica i stilski videla kako bi izgledala) kako bi naša stranica
+            imala scroll bar sa desne strane i kako bi ovaj efekat bio vidljiv. Prvo šta treba da uradite
+            je da definišete gde treba da odete klikom na link. Ja želim da odem na Vrh stranice na naslov - u ovom primeru
+            H1 tag. Da bi to uradio moram JEDINSTVENO da definišem taj element.
+            To radim upotrebom ID atributa. H1 tagu na ovoj stranici dodeliću atribut id="mainTitle". Kada sam to uradio
+            odlazim na link i njemu u href atribut kao vrednost postavljam taj ID (ID se oznacava #)
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+            veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+            ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+            porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+            adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
+            et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
+            quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+            qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
+            illum qui dolorem eum fugiat quo voluptas nulla pariatur
+        </p>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries, but also the
+            leap into electronic typesetting, remaining essentially unchanged. It
+            was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software
+            like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <!-- reči unutar paragrafa podesiti ka link i klikom treba da nas odvede na vrh stranice-->
+        <p>NAZAD NA VRH STRANICE</p><a href="#top">Back to top</a>
+        <a href="#maintitle"> <p>nazad na vrh strane</p></a>
+        <h2>LINK NA DRUGU STRANICU ISTOG PROJEKTA</h2> 
+     
+        <a href="vezba3-slike.html">link</a>
+
+
+        <!--reči ispisane velikim slovima definisati kao link koji će nas odvesti na vezba3-slike.html stranicu-->
+        <p>Na prethodnom času smo radili SLIKE U HTML-u</p>
+        <a href="vezba3-slike.html" target="_blank">SLIKE U HTML-u</a>
+    </body>
+</html>

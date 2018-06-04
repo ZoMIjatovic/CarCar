@@ -1,0 +1,192 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 4, 2018, 9:57:27 AM
+    Author     : LUX
+*/
+
+
+    
+    
+    #nav ul li a {
+        width: 100%;
+        text-align: left;
+    }
+ * {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0px auto;
+    font-family: Helvetica;
+}
+
+header {
+    background-color: #fdf2b2;
+    padding: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+#nav {
+    background-color: #65b55e;
+    /*padding: 20px;*/
+}
+
+#nav ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+#nav ul li {
+    display: inline-block;
+}
+
+#nav ul li a {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav ul li a:hover {
+    background-color: #ccc;
+}
+
+#main {
+    /*background-color: #b55e5e;*/
+}
+
+#article {
+    /*background-color: #ccc;*/
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#aside {
+    /*background-color: aquamarine;*/
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+
+
+h1 {
+    color: #1069f3;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1069f3;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h1 {
+    font-size:30px;
+}
+
+.yellow-background {
+    background-color: yellow;
+}
+
+.green-back {
+    background-color: #eee;
+}
+
+.vazno {
+    margin: 20px;
+    padding: 15px;
+    width: 400px;
+    border: 1px solid #d15757;
+}
+
+#naslov {
+    color:#b55e5e; 
+    background-color: #65b55e;
+}
+
+h1 {
+    color: grey !important;
+}
+
+.sidebar {
+    color: red;
+}
+
+ul {
+    /*margin-left: 50px;*/
+}
+
+ul.sidebar {
+    font-size: 14px;
+    padding-left: 0px;
+    width: 400px;
+}
+
+ul.sidebar li {
+    list-style: none;
+    background-color: #ccc;
+}
+
+ul.sidebar li ul {
+    padding-left: 0px;
+}
+
+ul.sidebar li ul li {
+    background-color: #eee;
+}
+
+/*selector:pseudo-class {
+    property: value;
+}*/
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+    background-color: yellow;
+}
+
+a:visited {
+    color: grey;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr  {
+    border: 1px solid black;
+}
+
+table thead tr th {
+    background-color: #ccc;
+}
+
+table tbody tr:hover td {
+    background-color: #65b55e;
+}
+
+table tbody tr:last-child {
+    color: aqua;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: grey;
+}

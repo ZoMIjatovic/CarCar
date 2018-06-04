@@ -1,0 +1,33 @@
+*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 29, 2018, 7:59:03 PM
+    Author     : qa-popodne
+*/
+body {
+    width:1200px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-top: 300px;
+}
+#header {
+    background-color: bisque;
+}
+#nav {
+    background-color: cornsilk;
+}
+#main {
+    background-color: salmon;
+}
+#article {
+    background-color: buttonface;
+}
+#aside {
+    background-color: azure;
+}
+#footer{
+    background-color: chartreuse
+}

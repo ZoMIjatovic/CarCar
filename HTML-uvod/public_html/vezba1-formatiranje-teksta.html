@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <title>VEŽBA 1 Formatiranje teksta</title>
+  </head>
+  <body>
+        <!-- Ovaj tekst je komentar koji se ne vidi na ekranu i služi za dodatno objašnjenje HTML koda -->
+    	<!-- Može služiti i kao podsetnik ili dokumentacija vašeg HTML koda -->
+    	<!-- Sve što ste napisali između < ! - -   i   - - > smatrace se komentarom i neće se tretirati kao nešto što treba da se prikazuje-->
+
+    	<!-- Cilj ove vežbe jeste da tekst ispod prikažete na ekranu tako da se poklapaju novi redovi. Dakle trebate da stavljate p tagove tamo gde je potrebno.-->
+    	<!-- Sam tekst je takođe i objašnjenje šta treba da radite tako da ga pažljivo pročitajte! -->
+
+      	<!-- Pre svega neophodno je da markirate sva poglavlja u tekstu. -->
+    	<!-- Sve što počinje sa '-' smatra se naslovom prvog nivoa a sve sto počinje sa '--' smatra se naslovom drugog nivoa. -->
+
+    - VEŽBA 1 - HTML
+
+
+    -- Formatiranje teksta
+
+    Kroz sledeće primere izvršićemo osnovno formatiranje teksta na web stranici.
+
+    - Dodavanje Naslova (h1-h6)
+
+    Headings pomažu u definisanju strukture stranice i kontrolišu hijerarhiju sadržaja
+    na stranici. Na raspolaganju su vam 6 nivoa gde h1 predstavlja najvažniji naslov
+    na stranici pa sve do h6 koji je najniži po vrednosti.
+
+    Postoji nekoliko teorija kako da koristite H1-6 tagove.
+    Ono što je najbitnije jeste da H1-H6 tagovi daju jačinu i važnost vašem sadržaju,
+    a ne samo da se odnose na veličinu slova. Sadržaj koji vidite ispisan velikim slovima
+    nije nužno H tag.
+
+    Veoma je važno biti konzistentan u korišćenju H1-H6 tagova kroz sajt te je stoga neophodno
+    dobro se upoznati sa sajtom i njegovim sadržajem pa tek krenuti u njegovu realizaciju.
+
+
+    -- Upotreba paragrafa
+
+    Paragraf  (&lang;p&rang;) je jedan od najosnovnijih tagova za formatiranje teksta.
+    Sastoji se od otvarajućeg i zatvarajućeg taga, i to je tag koji ćete najčešće koristiti.
+    Predstavlja veću količinu teksta. Svaka zasebna celina se piše u novom paragrafu.
+
+    - Line breaks (Prekid teksta)
+
+    Ponekad ćete imati potrebu da pređete u novi red a da ostanete u okviru paragrafa,
+    tj. da ne kreirate novi paragraf. Da biste to uradili u HTML-u koristi se Line break tag (&lang;br&rang;).
+
+
+    Line break je inline tag, što znači da možete da ga koristite u okviru H1-H6 tagova ili paragrafa.
+    On je samozatvarajući tag.
+
+    Na primer ukoliko imamo adresu ispisanu u jednom paragrafu (za sada) LINE BREAK
+    možemo koristiti da odvojimo celine u okviru adrese kao nove redove.
+
+
+    <!--SLEDEĆU ADRESU STAVITI U PARAGRAF, a svaku celinu prikazati u zasebnom redu koristeći LINE BREAK-->
+    cubes.rs, Bulevar Mihajla Pupina 161, Novi Beograd, Srbija.
+
+    -- Isticanje  teksta
+
+    Često imamo potrebu da određeni deo teksta (jedna reč, nekoliko reči) ili cele fraze
+    istaknemo na neki način u odnosu na ostali deo teksta a da ne izlazimo iz paragrafa.
+
+
+    HTML daje nekoliko načina da to uradite.
+
+
+    -- Bold Tag
+
+    Bold tag (&lang;b&rang;) koristimo kada želimo da istaknemo određeni deo teksta (jedna reč, nekoliko reči)
+    ili cele fraze ali
+    <!--OVO VELIKIM SLOVIMA BOLDOVATI tj staviti u BOLD TAG-->
+    SAMO U VIZUELNOM SMISLU. Nakon razmatranja biva uklonjen ali sa HTML5 ponovo vraćen u upotrebu.
+
+
+    U vizuelnom prikazu u browser-u predstavljen je BOLD-OVANJEM teksta.
+
+    - Strong Tag
+
+    Koristeći strong tag (&lang;strong&rang;) deo teksta koji se nalazi između ovog taga predstavlja
+    <!--staviti u strong tag sledeci red-->
+    tekst koji ima veći značaj od ostatka teksta.
+
+
+    U vizuelnom prikazu predstavljen je kao bold-ovan tekst.
+    Stim što se kod ovog taga pored vizuelnog boldovanja tekstu daje na značaju.
+
+
+    -- Italic Tag
+
+    Kao bold tag,  italic tag (&lang;i&rang;) koristimo kada želimo da istaknemo
+    određeni deo teksta (jedna reč, nekoliko reči) ili cele fraze ali
+    <!--OVO VELIKIM SLOVIMA iskositi-->
+    SAMO U VIZUELNOM SMISLU. Nema nikakvo posebno značenje već samo u  vizuelnom
+    prikazu u browser-u je predstavljen iskošenim  tekstom.
+
+    -- Emphasis Tag
+
+    Emphasis tag (&lang;em&rang;), "em" tag, takođe koristimo kada želimo da istaknemo
+    određeni deo teksta (jedna reč, nekoliko reči) ili cele fraze, ali za razliku od ITALIC TAGA
+    koji daje samo na vizuelnom izgledu
+    <!--OVO VELIKIM SLOVIMA staviti u EMPHAZIS TAG-->
+    EMPHAZIS TAG DAJE TEKSTU NA ZNAČAJU, VAŽNOSTI
+    u odnosu na ostali tekst.
+
+    U prikazu u browser-u je predstavljen iskošenim  tekstom.
+
+
+    -- UNDERLINE TAG
+
+    Underline Tag (&lang;em&rang;), je tag koji isključivo ima VIZUELNO značenje
+    a manifestuje se tako što se tekst koji se nađe između
+    ovog taga prikazuje kao
+    <!--SLEDECI DEO TEKSTA STAVITI U U TAG--> PODVUČEN TEKST
+
+
+    -- Wait.... what i UGNJEŽDENI TAGOVI
+
+    Često se postavlja pitanje zašto imamo ovoliko tagova za boldovanje i iskošavanje teksta.
+    Ovo je možda jedna od najvećih konfuzija u upotrebi HTML-a.
+    Najlakši način da se ovo objasni je sledeći:
+
+    Jedna grupa tagova (BOLD i ITALIK tag) je samo <!--STAVITI OVU REC U BOLD I ITALIK TAG-->PREZENTACIONI
+    dok je druga grupa <!--STAVITI OVU REČ U STRONG I EMPHAZIS TAG-->LOGIČNI.
+
+    Prezentacioni tagovi samo stilizuju tekst u vizuelnom smislu i ništa više dok logični daju
+    značenje i prilikom pretraga u browser-ima daju na značenju vašeg teksta.
+
+
+
+    - PRIKAZ SPECIJALNIH KARAKTERA
+
+    Određeni elementi su "rezervisani za HTML" što znači da ne bi bilo poželjno koristiti ih kao tekst
+    jer mogu da uzrokuju probleme u HTML kodu i samom prikazu u browser-u.
+
+    NA PRIMER korišćenje leve zagrade "<" može da prouzrokuje probleme u prikazu sadržaja
+    u browser-u jer browser može da očekuje da je u stvari otvoren tag.
+    zato se ovaj karakter iako se može uneti putem tastature  predstavlja specijalnim karakterom
+
+    <!--UNETI levu zagradu  POMOĆU SPECIJALNOG KATAKTERA &lang;-->
+
+    <!--ZAMENITI SLEDEĆI KARAKTER SA SPECIJALNIM KARAKTEROM-->&
+
+
+    <!--Razdvojiti ova dva elementa sa horizontalnom linijom-->
+
+    Takođe postoje situacije kada određene elemente na stranici nije moguće uneti pomoću tastature
+    već je jedini način da se oni unesu pomoću specijalnih karaktera.
+
+    <!--Ubaciti specijalni karakter za copyright--> Sva prava su zadržana.
+
+
+
+  </body>
+</html>

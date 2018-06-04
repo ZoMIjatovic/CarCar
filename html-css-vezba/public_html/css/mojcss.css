@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 4, 2018, 9:49:35 PM
+    Author     : LUX
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    background-color: palegreen;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 450px;
+    padding-top: 0px;
+    padding-left: 0px;
+    position:statice;
+}
+
+#nav ul {
+    background-color: aqua;
+    margin: 0px,align-content;
+    padding-left: 0px;
+}
+#nav ul li {
+    padding-bottom:10px;
+    width: 150px;
+    display: inline-block;
+    
+        
+}
+
+#nav ul li a:hover {
+    background-color: red;
+}
+#article {
+    /*background-color: #ccc;*/
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+#aside {
+    /*background-color: aquamarine;*/
+    display: inline-block;
+    width: 29%;
+    vertical-align: top;
+    padding: 10px;
+}
+#aside ol li a:hover {
+    background-color: green;
+    font-weight: bold;
+}
+footer {
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+   }

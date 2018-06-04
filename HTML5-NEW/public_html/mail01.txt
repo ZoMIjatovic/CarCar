@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/main css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+
+        <!--Miloš Vasiljevic
+        Nevena Ignjatovic
+        Sanja Cvetkovic
+        Olivera Vuksic
+        Željko Stepanovic
+        Tijana Trifunovic
+        Branislav Radišic
+        Jelena Ješic
+        Filip Jovicic
+        Vladimir Zdravkovic
+        Marija Kovacic
+        Ana Miškovic
+        Nebojša Nikolic
+        Milica Subotic
+        Ivana Vujic Milic
+        Nebojša Milovic
+        Marko Rajcic
+        Dragan Korac
+        Biljana Pišcevic-->
+
+
+
+
+        <table>
+            <thead>
+
+                <tr>
+                    <th>ime</th>
+                    <th>prezime</th>        
+                </tr>
+
+
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Milos</td>
+                    <td>Vasilejvic</td>
+
+                </tr> 
+                <tr>
+                    <td>Nevena</td>
+                    <td>Ignjatovic</td>
+
+                </tr> 
+
+                <tr>
+                    <td>Sanja</td>
+                    <td>Cvetkovic</td>
+
+                </tr> 
+
+                <tr>
+                    <td>Olivera</td>
+                    <td>Vuksic</td>
+
+                </tr> 
+                <tr>
+                    <td>Zeljko</td>
+                    <td>Stefanovic</td>
+
+                </tr> 
+                <tr>
+                    <td>tijana</td>
+                    <td>Trifunovicc</td>
+
+                </tr> 
+            </tbody>
+
+
+
+        </table>
+
+
+        <h1> meni</h1>
+        <p class="sidebar">Ovo je meni sajta</p>
+
+        <ul class="sidebar">
+            <li>background kurs
+                <ul>
+                    <li> html, css, js</li>
+                    <li>baze podataka</li>
+                    <li>php</li>
+                </ul>
+            </li>
+            <li>html</li> 
+            <li>css</li> 
+            <li>js</li>
+        </ul>
+
+    </body>
+</html>
